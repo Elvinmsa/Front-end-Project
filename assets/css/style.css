@@ -28,7 +28,7 @@
 }
 
 .container .row .column-left a:hover {
-  color: teal;
+  color: #2bbef9;
 }
 
 .container .row .icon-secure {
@@ -95,8 +95,9 @@
 .container .row .nav-container .dropdown-trigger {
   position: relative;
   color: grey;
-  font-size: 15px;
+  font-size: 17px;
   padding-left: 25px;
+  font-family: sans-serif;
 }
 
 .container .row .nav-container .dropdown-trigger:hover {
@@ -126,14 +127,22 @@
 .container .row .nav-container .dropdown-menu-item {
   padding: 5px;
   color: grey;
+  font-family: sans-serif;
 }
 
 .container .row .nav-container .dropdown-menu-item a {
   color: grey;
+  font-size: 12px;
 }
 
 .container .row .nav-container .dropdown-menu-item a:hover {
   color: #2bbef9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .container .site-logo {
@@ -153,5 +162,34 @@
   color: grey;
   font-family: sans-serif;
   cursor: pointer;
+}
+
+.container .site-loc {
+  margin-top: 50px;
+  margin-left: 50px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  height: 80px;
+}
+
+.container .site-loc p {
+  font-family: sans-serif;
+  color: grey;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.container .site-loc select {
+  border: none;
+  margin-left: 15px;
+  padding-right: 15px;
+  color: darkblue;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
