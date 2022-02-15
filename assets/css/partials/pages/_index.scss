@@ -186,4 +186,69 @@
             font-weight: bold;
         }
     }
+
+    .search-container{
+        margin-top: 55px;
+        margin-left: 10px;
+        form{
+            position: relative;
+        }
+
+        input{
+            width: 400px;
+            height: 70px;
+            background-color: whitesmoke;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        button{
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 50px;
+            background: transparent;
+            border: transparent;
+            font-size: 20px;
+            color: black;
+            outline: 0;
+        }
+    }
+
+    .user{
+        margin-top: 70px;
+        margin-left: 20px;
+        .far{
+            font-size: 35px;
+            cursor: pointer;
+        }
+    }
+
+    .price{
+        margin-top: 75px;
+        margin-left: 20px;
+        span{
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+
+    .basket{
+        margin-top: 70px;
+        margin-left: 20px;
+        width: 60px;
+        height: 40px;
+        background-color: rgb(252, 233, 233);
+        border-radius: 20px;
+        .fas{
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            color: red;
+        }
+    }
 }

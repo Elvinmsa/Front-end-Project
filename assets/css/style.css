@@ -192,4 +192,77 @@
   font-family: sans-serif;
   font-weight: bold;
 }
+
+.container .search-container {
+  margin-top: 55px;
+  margin-left: 10px;
+}
+
+.container .search-container form {
+  position: relative;
+}
+
+.container .search-container input {
+  width: 400px;
+  height: 70px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container .search-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  background: transparent;
+  border: transparent;
+  font-size: 20px;
+  color: black;
+  outline: 0;
+}
+
+.container .user {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.container .user .far {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.container .price {
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.container .price span {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container .basket {
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 60px;
+  height: 40px;
+  background-color: #fce9e9;
+  border-radius: 20px;
+}
+
+.container .basket .fas {
+  font-size: 20px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
