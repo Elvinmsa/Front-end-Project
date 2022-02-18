@@ -298,36 +298,143 @@
 }
 
 .site-menu{
-    margin-left: 150px;
-    li{
-        list-style: none;
-        margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+    cursor: pointer;
+
+    .nav-down{
         width: 100px;
-        height: 35px;
-        line-height: 10px;
+        height: 40px;
+        border-radius: 20px;
         text-align: center;
-        border-radius: 10px;
-        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 15px;
+        list-style: none;
 
         &:hover{
-            background-color: #e3f3fd;
+            background-color: #ddf5fd;
+            color: #2bbef9;
         }
 
-        .site-down{
-            margin-left: 10px;
-            margin-top: 8px;
-            color: #3e445a
-        }
-        
         a{
             text-decoration: none;
             color: #3e445a;
-            font-family: sans-serif;
-            font-size: 15px;
+            margin-top: 13px;
+
+            &:hover{
+                color: #2bbef9;
+            }
+        }
+
+        i{
+            margin-top: 13px;
+            margin-left: 10px;
+        }
+    }
+
+    .meat{
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        &:hover{
+            background-color: #ddf5fd;
+            color: #2bbef9;
+        }
+
+        .fa-drumstick-bite{
+            font-size: 20px;
+            color: #3e445a;
             margin-top: 8px;
 
             &:hover{
-                text-decoration: none;
+                color: #2bbef9;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            margin-left: 10px;
+            color: #3e445a;
+            margin-top: 8px;
+
+            &:hover{
+                color: #2bbef9;
+            }
+        }
+    }
+
+    .bakery{
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        &:hover{
+            background-color: #ddf5fd;
+            color: #2bbef9;
+        }
+
+        .fa-cookie{
+            font-size: 20px;
+            color: #3e445a;
+            margin-top: 8px;
+
+            &:hover{
+                color: #2bbef9;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            margin-left: 10px;
+            color: #3e445a;
+            margin-top: 8px;
+
+            &:hover{
+                color: #2bbef9;
+            }
+        }
+    }
+
+    .baverage{
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        &:hover{
+            background-color: #ddf5fd;
+            color: #2bbef9;
+        }
+
+        .fa-mug-hot{
+            font-size: 20px;
+            color: #3e445a;
+            margin-top: 8px;
+
+            &:hover{
+                color: #2bbef9;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            margin-left: 10px;
+            color: #3e445a;
+            margin-top: 8px;
+
+            &:hover{
                 color: #2bbef9;
             }
         }
