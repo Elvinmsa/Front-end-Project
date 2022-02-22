@@ -268,7 +268,7 @@
 }
 
 .all-categories {
-  width: 250px;
+  width: 220px;
   height: 60px;
   border-radius: 25px;
   background-color: #2bbef9;
@@ -305,13 +305,13 @@
 }
 
 .all-categories .select {
-  margin-left: 40px;
+  margin-left: 15px;
   color: white;
   cursor: pointer;
 }
 
 .site-menu {
-  margin-left: 80px;
+  margin-left: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,6 +337,7 @@
   text-decoration: none;
   color: #3e445a;
   margin-top: 13px;
+  font-size: 15px;
 }
 
 .site-menu .nav-down a:hover {
@@ -345,7 +346,8 @@
 
 .site-menu .nav-down i {
   margin-top: 13px;
-  margin-left: 10px;
+  margin-left: 5px;
+  font-size: 15px;
 }
 
 .site-menu .meat {
@@ -355,7 +357,7 @@
   text-align: center;
   list-style: none;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .site-menu .meat:hover {
@@ -364,7 +366,7 @@
 }
 
 .site-menu .meat .fa-drumstick-bite {
-  font-size: 20px;
+  font-size: 15px;
   color: #3e445a;
   margin-top: 8px;
 }
@@ -375,9 +377,10 @@
 
 .site-menu .meat a {
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 5px;
   color: #3e445a;
   margin-top: 8px;
+  font-size: 15px;
 }
 
 .site-menu .meat a:hover {
@@ -391,7 +394,7 @@
   text-align: center;
   list-style: none;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .site-menu .bakery:hover {
@@ -400,7 +403,7 @@
 }
 
 .site-menu .bakery .fa-cookie {
-  font-size: 20px;
+  font-size: 15px;
   color: #3e445a;
   margin-top: 8px;
 }
@@ -411,9 +414,10 @@
 
 .site-menu .bakery a {
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 5px;
   color: #3e445a;
   margin-top: 8px;
+  font-size: 15px;
 }
 
 .site-menu .bakery a:hover {
@@ -427,7 +431,7 @@
   text-align: center;
   list-style: none;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .site-menu .baverage:hover {
@@ -436,7 +440,7 @@
 }
 
 .site-menu .baverage .fa-mug-hot {
-  font-size: 20px;
+  font-size: 15px;
   color: #3e445a;
   margin-top: 8px;
 }
@@ -450,6 +454,469 @@
   margin-left: 10px;
   color: #3e445a;
   margin-top: 8px;
+  font-size: 15px;
+}
+
+.site-menu .baverage a:hover {
+  color: #2bbef9;
+}
+
+.content {
+  width: 100%;
+  line-height: 40px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.container .row .column-left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .column-left li {
+  list-style: none;
+}
+
+.container .row .column-left a {
+  text-decoration: none;
+  color: gray;
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.container .row .column-left a:hover {
+  color: #2bbef9;
+}
+
+.container .row .icon-secure {
+  margin-left: 60px;
+}
+
+.container .row .icon-secure .far {
+  font-size: 20px;
+  color: gray;
+}
+
+.container .row .icon-secure span {
+  color: gray;
+  margin-left: 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.container .row .text-content span {
+  color: gray;
+  margin-left: 20px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.container .row .text-content a {
+  color: #2bbef9;
+  font-size: 13px;
+}
+
+.container .row .text-content a:hover {
+  color: #2bbef9;
+}
+
+.container .row .nav-container .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .nav-container ul {
+  list-style: none;
+}
+
+.container .row .nav-container a {
+  text-decoration: none;
+}
+
+.container .row .nav-container .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .nav-container .nav-item-dropdown {
+  position: relative;
+}
+
+.container .row .nav-container .nav-item-dropdown:hover > .dropdown-menu {
+  display: block;
+  border: none;
+}
+
+.container .row .nav-container .dropdown-trigger {
+  position: relative;
+  color: grey;
+  font-size: 17px;
+  padding-left: 25px;
+  font-family: sans-serif;
+}
+
+.container .row .nav-container .dropdown-trigger:hover {
+  color: #2bbef9;
+}
+
+.container .row .nav-container .dropdown-trigger:focus + .dropdown-menu {
+  display: block;
+}
+
+.container .row .nav-container .dropdown-trigger::after {
+  content: "›";
+  position: absolute;
+  font-size: 24px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: -5px;
+  right: -15px;
+}
+
+.container .row .nav-container .dropdown-menu {
+  position: absolute;
+  top: 1rem;
+  left: 20px;
+}
+
+.container .row .nav-container .dropdown-menu-item {
+  padding: 5px;
+  color: grey;
+  font-family: sans-serif;
+}
+
+.container .row .nav-container .dropdown-menu-item a {
+  color: grey;
+  font-size: 12px;
+}
+
+.container .row .nav-container .dropdown-menu-item a:hover {
+  color: #2bbef9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .site-logo {
+  height: 100px;
+  width: 230px;
+  margin-top: 50px;
+}
+
+.container .site-logo img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.container .site-logo .logo-sub {
+  width: 300px;
+  font-size: 13px;
+  color: grey;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.container .site-loc {
+  margin-top: 50px;
+  margin-left: 50px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  width: 200px;
+  height: 80px;
+}
+
+.container .site-loc p {
+  font-family: sans-serif;
+  color: grey;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.container .site-loc select {
+  border: none;
+  margin-left: 15px;
+  padding-right: 15px;
+  color: darkblue;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.container .search-container {
+  margin-top: 55px;
+  margin-left: 10px;
+}
+
+.container .search-container form {
+  position: relative;
+}
+
+.container .search-container input {
+  width: 450px;
+  height: 70px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.container .search-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  background: transparent;
+  border: transparent;
+  font-size: 20px;
+  color: black;
+  outline: 0;
+}
+
+.container .user {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.container .user .far {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.container .price {
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.container .price span {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container .basket {
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 60px;
+  height: 40px;
+  background-color: #fce9e9;
+  border-radius: 20px;
+}
+
+.container .basket .fas {
+  font-size: 20px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  color: red;
+}
+
+.all-categories {
+  width: 220px;
+  height: 60px;
+  border-radius: 25px;
+  background-color: #2bbef9;
+}
+
+.all-categories .menu {
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+
+.all-categories .all {
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.all-categories .desc {
+  width: 110px;
+  height: 18px;
+  font-size: 9px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-left: 40px;
+  background-color: #e9e6e6;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.all-categories .select {
+  margin-left: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.site-menu {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.site-menu .nav-down {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+.site-menu .nav-down:hover {
+  background-color: #ddf5fd;
+  color: #2bbef9;
+}
+
+.site-menu .nav-down a {
+  text-decoration: none;
+  color: #3e445a;
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.site-menu .nav-down a:hover {
+  color: #2bbef9;
+}
+
+.site-menu .nav-down i {
+  margin-top: 13px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.site-menu .meat {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.site-menu .meat:hover {
+  background-color: #ddf5fd;
+  color: #2bbef9;
+}
+
+.site-menu .meat .fa-drumstick-bite {
+  font-size: 15px;
+  color: #3e445a;
+  margin-top: 8px;
+}
+
+.site-menu .meat .fa-drumstick-bite:hover {
+  color: #2bbef9;
+}
+
+.site-menu .meat a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #3e445a;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.site-menu .meat a:hover {
+  color: #2bbef9;
+}
+
+.site-menu .bakery {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.site-menu .bakery:hover {
+  background-color: #ddf5fd;
+  color: #2bbef9;
+}
+
+.site-menu .bakery .fa-cookie {
+  font-size: 15px;
+  color: #3e445a;
+  margin-top: 8px;
+}
+
+.site-menu .bakery .fa-cookie:hover {
+  color: #2bbef9;
+}
+
+.site-menu .bakery a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #3e445a;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.site-menu .bakery a:hover {
+  color: #2bbef9;
+}
+
+.site-menu .baverage {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.site-menu .baverage:hover {
+  background-color: #ddf5fd;
+  color: #2bbef9;
+}
+
+.site-menu .baverage .fa-mug-hot {
+  font-size: 15px;
+  color: #3e445a;
+  margin-top: 8px;
+}
+
+.site-menu .baverage .fa-mug-hot:hover {
+  color: #2bbef9;
+}
+
+.site-menu .baverage a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #3e445a;
+  margin-top: 8px;
+  font-size: 15px;
 }
 
 .site-menu .baverage a:hover {
